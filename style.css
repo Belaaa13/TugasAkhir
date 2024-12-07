@@ -1,0 +1,346 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+body {
+	height: 100vh;
+	scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+	height: 90px;
+	color: white;
+	font-family: 'Karla';
+}
+
+#navbarNav .nav-item a:hover {
+	color: #454D7A;
+}
+
+.nav-item {
+	margin-left: 15px;
+	transition: 0.2s;
+	font-weight: 600;
+}
+
+.navbar-brand {
+	line-height: 20px;
+	font-weight: 600;
+}
+
+.navbar-brand h1 {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.navbar-brand hr {
+	display: inline-block;
+	width: 15px;
+	margin: 2px;
+}
+
+.navbar-brand span {
+	font-size: 14px;
+	margin-left: 2px;
+}
+
+/* Bagian Header */
+header {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background: linear-gradient(to bottom right, #FE0141, #444E7B);
+}
+
+header #particles-js {
+	height: 100vh;
+}
+
+.judul {
+	width: 100%;
+	position: absolute;
+	padding-top: 150px;
+}
+
+.judul h1 {
+	font-size: 40px;
+	line-height: 50px;
+	color: white;
+	font-family: 'Karla';
+	font-weight: lighter;	
+	margin-bottom: 20px;
+}
+
+.judul h1 b {
+	font-weight: bold;
+	font-size: 46px;
+}
+
+.judul p {
+	font-size: 20px;
+	font-family: 'Karla';
+	color: white;
+}
+
+.ohem {
+	border: none;
+	width: 200px;
+	height: 40px;
+	background: #FE2154;
+	color: white;
+	font-size: 15px;
+	font-family: 'Karla';
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: bolder;
+	transition: .2s;
+	margin-top: 20px;
+}
+
+button:hover {
+	background-color: #454D7A;
+}
+
+.iklan p {
+	font-size: 15px;
+	font-family: 'Karla';
+	color: white;
+}
+
+.fitur {
+	bottom: 0;
+}
+
+.fitur img {
+	width: 50px;
+}
+
+
+/* Bagian ABOUT */
+section {
+	height: auto;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.imabout {
+	border-radius: 20px;
+}
+
+.deskripsi h2 {
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Karla';
+	color: #215276;
+}
+
+.deskripsi p {
+	text-align: justify;
+	margin:30px 0;
+	line-height: 26px;
+	font-size: 15px;
+	color: black;
+}
+
+.tombout {
+	border: none;
+	width: 200px;
+	height: 40px;
+	background: #FE2154;
+	color: white;
+	font-size: 15px;
+	font-family: 'Karla';
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: bolder;
+	transition: .2s;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+/* Bagian Services */
+.services {
+	background-color: #f9f9f9;
+}
+
+.judultextservis {
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Karla';
+	color: #215276;
+}
+
+.tekstextservis {
+	margin: 30px 0;
+	line-height: 26px;
+	font-size: 15px;
+	color: black;
+}
+
+.card-link {
+	color: #FE2154;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 16px;
+}
+
+/* Bagian Blog */
+.news {
+	background: linear-gradient(to bottom right, #FE0141, #444E7B);
+	padding-bottom: 50px;
+}
+
+section.news h2 {
+	color: white;
+	color: ye;
+}
+
+.news .card {	
+	background-color: rgba(255,255,255,.2);
+}
+
+.news p, .news h3 {
+	color: white;
+}
+
+.news a {
+	color: white;
+	border-bottom: 1px solid #FE2154;
+}
+
+/* Bagian Kontak */
+.contact h2 {
+	color: #FE2154;
+}
+
+form {
+	overflow: hidden;
+	background-color: white;
+	padding: 30px 50px 20px 20px;
+	box-shadow: 0px 0px 15px rgba(1,1,1,.5);
+}
+
+label {
+	margin: 20px 0;
+}
+
+input,textarea {
+	background: #F6F6F6;
+	border:none;
+	padding: 15px;			
+	resize: none;
+}
+
+.btn-danger {
+	border: none;
+	width: 30%;
+	height: 40px;
+	font-size: 15px;
+	font-family: 'Karla';
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: bolder;
+	transition: .2s;
+	margin-top: 20px;
+}
+
+/* Bagian Intouch */
+.intouch {
+	display: flex;
+	padding: 10px 0px;
+	background: #343a40;
+}
+
+
+.intouch .kiri hr {
+    display: inline-block;
+	width: 15px;
+	margin: 2px;
+}
+
+.intouch .kiri span {
+	font-size: 14px;
+}
+
+.intouch h3 {
+	color: white;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.kiri {
+	color: #D2D2D2;
+}
+
+.pentuplogo {
+	font-size: 34px;
+	font-family: 'Karla';
+	font-weight: bold;
+}
+
+.sosmed {
+	text-align: left;
+}
+
+.sosmed ul li {
+	margin-bottom: 2px;
+	font-size: 14px;
+	color: white;
+}
+
+.sosmed ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.medsos ul li a {
+	margin-bottom: 2px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.medsos ul li i {
+	font-size: 20px;
+}
+
+.medsos a {
+	color: white;
+}
+
+/* Footer */
+.closing {
+	background: black;
+	color: white;
+	font-size: 15px;
+	font-family: 'Karla';
+}
+
+.closing a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+/*SCROLLBAR*/
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #E20D4A; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #4A4B79; 
+}
